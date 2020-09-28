@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    color:#fff;
+    background-color: #000;
+
+    a:hover{
+        color:#f07e14;
+    }
+
+    a:active{
+        color: gray;
+    }
+
+    a:visited{
+        color: #28c2e9;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #fff;   
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 3.5em;
+}
+
+.logo-div{
+    background-color: #ebc000;
+    clip-path: polygon(0 1%, 100% 0%, 75% 100%, 0% 100%);
+    width:20%;
+    height: 100%;
+
+    h1{
+        margin: 0;
+        border: 0;
+        padding-left: 1em;
+        line-height: 1.5em;
+        font-size: 3em;
+    }
+}
+
+main{
+    width:80%;
+    margin: 5em auto;
+}
